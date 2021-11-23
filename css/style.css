@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-size: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 40px;
+    }
+    h1 {
+        text-align: left;
+    }
+}
